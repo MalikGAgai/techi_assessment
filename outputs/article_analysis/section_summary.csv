@@ -1,0 +1,7 @@
+section,n,total_headline_words,mean_words,median_words,min_words,max_words,company_count,number_count,distinct_authors,company_pct,number_pct
+AI,20,191,9.5500,9.5000,7,13,19,12,8,95.0000,60.0000
+Markets,20,191,9.5500,10.0000,8,11,19,12,6,95.0000,60.0000
+Crypto,20,214,10.7000,10.0000,7,16,7,10,7,35.0000,50.0000
+Breakthroughs,20,199,9.9500,10.0000,7,12,13,9,7,65.0000,45.0000
+Policy,20,226,11.3000,11.0000,7,16,14,7,7,70.0000,35.0000
+Guides,20,195,9.7500,9.0000,5,14,8,9,9,40.0000,45.0000

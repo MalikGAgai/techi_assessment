@@ -1,0 +1,10 @@
+{
+  "input_sha256": {
+    "D:\\Projects\\techi_assessment\\outputs\\techi_articles.csv": "dfd32c2dbbc8cbf969849ed716388b08603617c5459e71f349b289d9a7d81b64",
+    "D:\\Projects\\techi_assessment\\traffic_table.csv": "d0aa833d4710912a6f5fcb3ae507b5854b235f6e7a4eb7aac2c84a23a40ea4e7"
+  },
+  "sources_unchanged": true,
+  "article_source_type": "real_public_listing_sample",
+  "traffic_source_type": "synthetic_assessment",
+  "article_to_session_join_performed": false
+}

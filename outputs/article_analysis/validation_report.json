@@ -1,0 +1,42 @@
+{
+  "input_sha256": "dfd32c2dbbc8cbf969849ed716388b08603617c5459e71f349b289d9a7d81b64",
+  "rows": 120,
+  "columns": [
+    "url",
+    "section",
+    "headline",
+    "author",
+    "date_shown",
+    "headline_word_count",
+    "format",
+    "names_a_company",
+    "contains_a_number"
+  ],
+  "section_counts": {
+    "AI": 20,
+    "Markets": 20,
+    "Crypto": 20,
+    "Breakthroughs": 20,
+    "Policy": 20,
+    "Guides": 20
+  },
+  "rule_source_sha256": "9f57d5e893638c65f76e25b394b7036c6ae022662420d8b6588f54d9c6404f58",
+  "validation": {
+    "nine_columns_in_exact_order": true,
+    "exactly_120_rows": true,
+    "six_sections_with_20_each": true,
+    "no_blank_cells": true,
+    "valid_urls": true,
+    "no_exact_duplicate_rows": true,
+    "no_within_section_url_duplicates": true,
+    "cross_listed_headlines_and_authors_consistent": true,
+    "shown_date_patterns_recognized": true,
+    "headline_word_counts": true,
+    "format_rules": true,
+    "company_rules": true,
+    "number_rules": true,
+    "input_bytes_unchanged": true
+  },
+  "passed": true,
+  "issues": 0
+}

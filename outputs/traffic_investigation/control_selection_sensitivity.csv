@@ -1,0 +1,8 @@
+control_set,sections,measurement_factor,august_adjusted_sessions,adjusted_endpoint_pct
+central_four,AI | Markets | Breakthroughs | Policy,1.45,70900.0,23.304347826086946
+all_except_crypto,AI | Markets | Breakthroughs | Policy | Guides,1.45,70900.0,23.304347826086946
+all_six,AI | Markets | Crypto | Breakthroughs | Policy | Guides,1.45,70900.0,23.304347826086946
+exclude_AI,Markets | Breakthroughs | Policy,1.45,70900.0,23.304347826086946
+exclude_Markets,AI | Breakthroughs | Policy,1.45,70900.0,23.304347826086946
+exclude_Breakthroughs,AI | Markets | Policy,1.45,70900.0,23.304347826086946
+exclude_Policy,AI | Markets | Breakthroughs,1.45,70900.0,23.304347826086946

@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "completed_at_utc": "2026-10-15T08:19:46.657623+00:00",
+  "replay": true,
+  "section_counts": {
+    "AI": 20,
+    "Markets": 20,
+    "Crypto": 20,
+    "Breakthroughs": 20,
+    "Policy": 20,
+    "Guides": 20
+  },
+  "listing_urls": {
+    "Markets": "https://www.techi.com/category/markets-equities/",
+    "AI": "https://www.techi.com/category/ai-intelligence/",
+    "Crypto": "https://www.techi.com/category/crypto-defi/",
+    "Policy": "https://www.techi.com/category/policy-impact/",
+    "Breakthroughs": "https://www.techi.com/category/tech-breakthroughs/",
+    "Guides": "https://www.techi.com/category/research-tools-guides/"
+  },
+  "rows": 120,
+  "distinct_urls": 109,
+  "cross_listing_rule": "Preserve newest 20 per section; cross-listed URLs are retained.",
+  "validation": {
+    "exact_column_order": true,
+    "exactly_120_rows": true,
+    "20_in_every_section": true,
+    "distinct_within_each_section": true,
+    "no_missing_values": true,
+    "public_article_urls": true,
+    "derived_fields_recompute": true
+  }
+}

@@ -1,0 +1,27 @@
+.......................................................                  [100%]
+============================== warnings summary ===============================
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88
+  D:\Projects\techi_assessment\.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92
+  D:\Projects\techi_assessment\.venv\lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+.venv\lib\site-packages\matplotlib\_mathtext.py:45
+  D:\Projects\techi_assessment\.venv\lib\site-packages\matplotlib\_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: D:\Projects\techi_assessment\outputs\final_audit\pytest_run_003.xml -
+55 passed, 13 warnings in 6.55s

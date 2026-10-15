@@ -1,0 +1,3 @@
+finding_id,source_type,section,observation,numerator,denominator,percentage,formula,selection_rule,note_connection
+1,real_article_sample,AI,Largest visible AI byline count: Umair Aslam,5,20,25.0,5 / 20 * 100,Filter section=AI; group exact author labels; take largest count; retain tied leaders,"AI writer note: tests the sampled byline distribution, not historical employment or impact"
+2,real_article_sample,Guides,Guides rows with an explicit shown date after March 2026,18,20,90.0,18 / 20 * 100,Filter section=Guides; count explicit absolute shown dates on or after 2026-04-01,Challenges the almost-nothing-since-March note on visible dates; does not measure a historical publishing rate

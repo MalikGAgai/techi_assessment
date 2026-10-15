@@ -1,0 +1,11 @@
+{
+  "central_factor": 1.45,
+  "crypto_baseline": 10550.0,
+  "crypto_excess": 14250.0,
+  "crypto_excess_pct_of_november_total": 19.0,
+  "reported_endpoint_pct": 78.79130434782608,
+  "adjusted_august": 70900.0,
+  "adjusted_endpoint_pct": 23.304347826086946,
+  "signup_endpoint_pct": 39.02439024390243,
+  "february_to_august_pct": 8.575803981623276
+}

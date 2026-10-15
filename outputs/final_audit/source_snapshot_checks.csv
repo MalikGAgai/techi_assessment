@@ -1,0 +1,7 @@
+section,source_url,snapshot_checksum_valid,first_20_source_cards_match,checked_rows
+Markets,https://www.techi.com/category/markets-equities/,True,True,20
+AI,https://www.techi.com/category/ai-intelligence/,True,True,20
+Crypto,https://www.techi.com/category/crypto-defi/,True,True,20
+Policy,https://www.techi.com/category/policy-impact/,True,True,20
+Breakthroughs,https://www.techi.com/category/tech-breakthroughs/,True,True,20
+Guides,https://www.techi.com/category/research-tools-guides/,True,True,20

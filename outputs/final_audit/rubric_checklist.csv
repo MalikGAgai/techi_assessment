@@ -1,0 +1,18 @@
+category,criterion,available_points,evidence,audit_status
+Dataset,"120 complete rows, no blanks",8,outputs/article_analysis/validation_report.json,evidenced
+Dataset,Reproducible method,7,method.txt; scraper replay; saved HTML and tests,evidenced
+Dataset,Sample limits named,7,memo.md; SCRAPING_RULES.md,evidenced
+Traffic,Measurement versus readers,12,February ratios; calibration; sensitivity; memo causal limits,evidenced_with_identification_limit
+Traffic,November one-off,6,crypto_spike_scenarios.csv; partial excess removal,evidenced_with_attribution_limit
+Traffic,Underlying growth arithmetic,7,tracking_calibration.csv; measurement_sensitivity.csv,evidenced_as_scenario
+Traffic,Signup interpretation,5,monthly_calculations.csv; memo distinguishes acquisitions and subscribers,evidenced
+Findings,Two numeric findings,10,5/20 AI byline share; 18/20 Guides dates after March,evidenced
+Findings,One finding meets table or notes,6,Guides visible-date contradiction; AI writer timing caveat,evidenced
+Memo,Recommendation and cost if wrong,8,Bounded Guides pilot and opportunity cost in memo.md,evidenced
+Memo,Specific change-my-mind line,4,memo.md exact required line and pilot outcomes,evidenced
+Memo,Well-chosen next free number,4,Controlled browser session-start event count,evidenced_as_proposal
+Charts,Honest axes and B&W readability,4,Two monochrome PNGs; chart_review.md,manually_reviewed
+Charts,Main point carried,4,"Common February break, Crypto spike, Guides decline; raw versus adjusted",manually_reviewed
+Honesty,Real versus invented separate,3,"Separate source paths, typed evidence, no article-session join",evidenced
+Honesty,Uncertainty and nothing invented,3,Source snapshots; assumptions; untestable staffing/referrals,evidenced_with_stated_limits
+Honesty,One ambiguity flagged,2,Session additivity and publication-versus-update date ambiguity,evidenced

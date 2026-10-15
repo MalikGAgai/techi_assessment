@@ -1,0 +1,4 @@
+baseline_method,october_crypto,november_crypto,december_crypto,estimated_baseline,possible_nonrecurring_excess,excess_pct_of_november_crypto,excess_pct_of_november_all_sessions
+october_baseline,10100,24800,11000,10100.0,14700.0,59.2741935483871,19.6
+neighbor_midpoint,10100,24800,11000,10550.0,14250.0,57.45967741935484,19.0
+december_baseline,10100,24800,11000,11000.0,13800.0,55.64516129032258,18.4

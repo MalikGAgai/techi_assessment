@@ -1,0 +1,13 @@
+Use Python 3.10+. Install requirements.txt in a virtual environment. The original traffic_table.csv is read-only throughout.
+
+Run scrape_articles.py --replay to reproduce the included October 2026 article snapshot without network access; run without --replay to collect current listings. Navigation discovers the six section URLs; no URL patterns are guessed. Requests use a descriptive User-Agent, robots.txt checks and at least 2.1 seconds between starts. Terms prohibit bulk scraping; this was reported and the user instructed proceeding. This is not site-owner permission.
+
+Select the first 20 distinct URLs per section after verifying descending listing timestamps. Cross-listed URLs remain in each section: 120 memberships, 109 URLs. Extract headline, byline and verbatim visible date; retain raw HTML, access times, checksums and pagination decisions. Missing fields fail collection.
+
+Words are whitespace tokens containing a letter/digit. Format precedence: “how to” phrase; terminal question mark; leading digits/Top digits; review word; leading how/why/what; other. Company flags use the fixed source-code dictionary with case-insensitive boundaries; numeric flags detect decimal digits. Full rules and limitations are in SCRAPING_RULES.md.
+
+Run analyze_articles.py, analyze_traffic.py and combine_evidence.py. Traffic totals sum six sections. February’s central multiplier is the median observed/forecast ratio in four calibration sections; forecasts use pre-change median increments. November Crypto excess uses neighboring-month baselines. Sensitivities retain alternative organic growth and excess-removal assumptions. Save all calculations separately from public metadata.
+
+October’s newest-20 samples cannot establish historical publishing rates, staffing changes or article-level traffic. Sessions are not readers; signups are not subscriber totals.
+
+Run audit_assessment.py for checks and tests; package_assessment.py builds the ZIP and verifies member hashes. Read outputs/final_audit/report.md before submission.

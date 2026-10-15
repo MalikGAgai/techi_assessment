@@ -1,0 +1,26 @@
+{
+  "traffic_sha256": "d0aa833d4710912a6f5fcb3ae507b5854b235f6e7a4eb7aac2c84a23a40ea4e7",
+  "articles_sha256": "dfd32c2dbbc8cbf969849ed716388b08603617c5459e71f349b289d9a7d81b64",
+  "input_files_unchanged": true,
+  "central_control_sections": [
+    "AI",
+    "Markets",
+    "Breakthroughs",
+    "Policy"
+  ],
+  "post_change_start": "2026-02",
+  "organic_sensitivity_pct": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "crypto_excess_removal_fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "context_source": "User-supplied assessment notes; not independent tracking/referral evidence"
+}

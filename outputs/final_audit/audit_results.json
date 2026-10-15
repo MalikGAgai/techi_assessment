@@ -1,0 +1,140 @@
+{
+  "audited_at_utc": "2026-10-15T09:10:54.753490+00:00",
+  "all_checks_passed": true,
+  "pytest": {
+    "tests": 55,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "pytest_exit_code": 0,
+  "traffic_cells_checked": 1635,
+  "sha256": {
+    "traffic_table.csv": "d0aa833d4710912a6f5fcb3ae507b5854b235f6e7a4eb7aac2c84a23a40ea4e7",
+    "outputs/techi_articles.csv": "dfd32c2dbbc8cbf969849ed716388b08603617c5459e71f349b289d9a7d81b64"
+  },
+  "checks": [
+    {
+      "check": "nine_columns_in_exact_order",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "exactly_120_rows",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "six_sections_with_20_each",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "no_blank_cells",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "valid_urls",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "no_exact_duplicate_rows",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "no_within_section_url_duplicates",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "cross_listed_headlines_and_authors_consistent",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "shown_date_patterns_recognized",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "headline_word_counts",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "format_rules",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "company_rules",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "number_rules",
+      "passed": true,
+      "evidence": "analyze_articles.validate; validation_issues.csv"
+    },
+    {
+      "check": "independent_traffic_arithmetic",
+      "passed": true,
+      "evidence": "1635 saved cell comparisons"
+    },
+    {
+      "check": "all_120_rows_match_saved_source_cards",
+      "passed": true,
+      "evidence": "source_snapshot_checks.csv"
+    },
+    {
+      "check": "memo.md_word_limit",
+      "passed": true,
+      "evidence": "573 whitespace-delimited words; maximum 700; headings included"
+    },
+    {
+      "check": "method.txt_word_limit",
+      "passed": true,
+      "evidence": "254 whitespace-delimited words; maximum 300; headings included"
+    },
+    {
+      "check": "required_change_my_mind_line",
+      "passed": true,
+      "evidence": "memo.md"
+    },
+    {
+      "check": "at_most_two_charts",
+      "passed": true,
+      "evidence": "2 PNG charts; grayscale visual review documented separately"
+    },
+    {
+      "check": "public_sample_urls",
+      "passed": true,
+      "evidence": "public_sample_checks.json; manually reviewed H1, byline and detail-date differences"
+    },
+    {
+      "check": "full_rubric_mapped",
+      "passed": true,
+      "evidence": "17 subcriteria mapped; 100 available points; no score awarded"
+    },
+    {
+      "check": "full_pytest_suite",
+      "passed": true,
+      "evidence": "{'tests': 55, 'failures': 0, 'errors': 0, 'skipped': 0}; exit code 0; pytest_run_004.txt; warnings retained"
+    },
+    {
+      "check": "source_files_byte_unchanged",
+      "passed": true,
+      "evidence": "SHA-256 recorded in audit_results.json"
+    }
+  ],
+  "limitations": [
+    "Measurement change is not causally identifiable from monthly aggregates alone.",
+    "Shown dates may be updates, not original publication dates.",
+    "AI staffing and aggregator attribution remain untestable.",
+    "Site terms prohibit bulk scraping; user override is not site-owner permission.",
+    "No private submission or time-taken declaration has been made."
+  ]
+}

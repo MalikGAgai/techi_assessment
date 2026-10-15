@@ -1,0 +1,9 @@
+{
+  "accessed_at_utc": "2026-10-15T08:04:54.891128+00:00",
+  "requested_url": "https://www.techi.com/terms/",
+  "source_url": "https://www.techi.com/terms/",
+  "http_status": 200,
+  "user_agent": "TechAboutAssessment/1.0 (public-policy inspection; no article harvesting)",
+  "restriction_found": true,
+  "decision": "Stop article collection: terms prohibit automated bulk scraping"
+}

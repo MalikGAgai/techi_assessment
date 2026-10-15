@@ -1,0 +1,24 @@
+check,passed,evidence
+nine_columns_in_exact_order,True,analyze_articles.validate; validation_issues.csv
+exactly_120_rows,True,analyze_articles.validate; validation_issues.csv
+six_sections_with_20_each,True,analyze_articles.validate; validation_issues.csv
+no_blank_cells,True,analyze_articles.validate; validation_issues.csv
+valid_urls,True,analyze_articles.validate; validation_issues.csv
+no_exact_duplicate_rows,True,analyze_articles.validate; validation_issues.csv
+no_within_section_url_duplicates,True,analyze_articles.validate; validation_issues.csv
+cross_listed_headlines_and_authors_consistent,True,analyze_articles.validate; validation_issues.csv
+shown_date_patterns_recognized,True,analyze_articles.validate; validation_issues.csv
+headline_word_counts,True,analyze_articles.validate; validation_issues.csv
+format_rules,True,analyze_articles.validate; validation_issues.csv
+company_rules,True,analyze_articles.validate; validation_issues.csv
+number_rules,True,analyze_articles.validate; validation_issues.csv
+independent_traffic_arithmetic,True,1635 saved cell comparisons
+all_120_rows_match_saved_source_cards,True,source_snapshot_checks.csv
+memo.md_word_limit,True,573 whitespace-delimited words; maximum 700; headings included
+method.txt_word_limit,True,254 whitespace-delimited words; maximum 300; headings included
+required_change_my_mind_line,True,memo.md
+at_most_two_charts,True,2 PNG charts; grayscale visual review documented separately
+public_sample_urls,True,"public_sample_checks.json; manually reviewed H1, byline and detail-date differences"
+full_rubric_mapped,True,17 subcriteria mapped; 100 available points; no score awarded
+full_pytest_suite,True,"{'tests': 55, 'failures': 0, 'errors': 0, 'skipped': 0}; exit code 0; pytest_run_004.txt; warnings retained"
+source_files_byte_unchanged,True,SHA-256 recorded in audit_results.json

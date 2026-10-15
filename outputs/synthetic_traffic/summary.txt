@@ -1,0 +1,17 @@
+Synthetic assessment traffic: descriptive summary
+Period: 2025-09 to 2026-08 (12 months)
+Total category traffic: 1,005,200
+Total newsletter signups (separate): 11,620
+Highest traffic month: 2026-08 (102,805)
+Category changes from first to last month:
+  AI: +100.16%
+  Markets: +84.22%
+  Crypto: +93.83%
+  Breakthroughs: +88.88%
+  Policy: +74.54%
+  Guides: -82.32%
+
+These are synthetic counts, not verified website visitors.
+Category totals assume categories are additive. Signups are excluded.
+Monthly changes describe patterns; they do not establish causes.
+No public article records are joined to these data.
